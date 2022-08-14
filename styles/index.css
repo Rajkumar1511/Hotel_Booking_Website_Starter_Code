@@ -45,7 +45,7 @@ body{
   #view{
     text-align: center;
   }
-  .container:hover .overlay{
+  .container:hover .overlay{}
   .img-container:hover .overlay{
     position: absolute;
     background-color:rgba(0, 0, 0,0.5);
@@ -55,7 +55,7 @@ body{
     top: 0;
     left: 0;
   }
-  .container:hover .text {
+  .container:hover .text {}
   .img-container:hover .text {
     z-index: 2;
   }
@@ -67,7 +67,7 @@ body{
     transform: translate(-50%,-50%);
     z-index: -2;
   }
-  .container{
+  .container{}
   .img-container{
     position: relative;
     height: 150px;

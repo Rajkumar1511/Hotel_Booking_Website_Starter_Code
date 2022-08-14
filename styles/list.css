@@ -3,6 +3,7 @@
     background-color:lightgrey;
     flex-basis: 40%;
     flex-shrink: 0;
+}
 .hotel-card{
     margin: 2% 4%;
     background-color:lightgrey;
