@@ -1,16 +1,6 @@
-*{
-    font-family: Ubuntu, sans-serif;
-  }
-  
-  body{
+body{
     background-color: #e0e0e0;
   }
-  header, footer{
-    background-color: rosybrown;
-    height: 60px;
-  }
-  #search-bar{
-  
   #search-area{
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
     background-repeat: no-repeat;
@@ -24,7 +14,6 @@
   .city-img{
     height: 150px;
     width: 150px;
-    padding: 4%;
     border-radius: 25%;
   }
   #city-list{
@@ -32,10 +21,6 @@
    margin-right: 15%;
    padding: 4% 0;
   }
-  #login a{
-    margin:auto 20px;
-  }
-  
   #search-input{
     border: none;
     outline: none;
@@ -46,41 +31,22 @@
     width: 30%;
     z-index: 4;
   }
-  #logo{
-    height: 60px;
-  }
   #content{
     display: flex;
     flex-direction: column;
   }
-  header{
   #city-list{
     width: 100vw;
     margin: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     justify-content: space-evenly;
-  }
-  .links{
-    float: right;
-    border: 1px solid green;
-  }
-  a{
-    position: relative;
-    text-decoration: none;
-    color: black;
-  }
-  #copyright p{
-    margin-bottom: 0;
   }
   #view{
     text-align: center;
   }
-  #copyright{
-    border: 1px solid red;
-  }
   .container:hover .overlay{
+  .img-container:hover .overlay{
     position: absolute;
     background-color:rgba(0, 0, 0,0.5);
     height: 100%;
@@ -89,14 +55,9 @@
     top: 0;
     left: 0;
   }
-  #contact-us{
-    border: 1px solid black
-  }
   .container:hover .text {
+  .img-container:hover .text {
     z-index: 2;
-  }
-  #contact-us a{
-    margin: auto;
   }
   .text{
     color: #f1f1f1;
@@ -106,14 +67,11 @@
     transform: translate(-50%,-50%);
     z-index: -2;
   }
-  footer{
-    display: flex;
-    justify-content: space-between;
-  }
   .container{
+  .img-container{
     position: relative;
     height: 150px;
     width: 150px;
     border-radius: 25%;
     box-shadow: 10px 10px 10px 0 grey;
-  } 
+  }
